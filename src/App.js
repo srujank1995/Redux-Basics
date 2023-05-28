@@ -4,7 +4,8 @@ import { decrement, increment } from "./Components/ParentStore";
 
 const App = () => {
   const dispatch = useDispatch();
-  const StoreSelector = useSelector((state) => state.counterSlice);
+  const StoreSelector = useSelector((state) => state.counterStore);
+  console.log("StoreSelector",StoreSelector)
   return (
     <div className="App">
       <div>
