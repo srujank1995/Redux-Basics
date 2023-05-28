@@ -8,18 +8,18 @@ const CounterSliceNew = createSlice({
         status:''
     },
     reducers:{
-        increment_By_Twice: (state , action ) =>{
+        increment_By_Two: (state , action ) =>{
                 state.count = state.count + 2
                 state.status = IncrementNew;
         },
 
-        decrement_By_Twice: (state , action ) =>{
+        decrement_By_Two: (state , action ) =>{
             state.count = state.count - 2;
             state.status = DecrementNew;
     }
     }
 } );
 
-export const {increment_By_Twice, decrement_By_Twice} = CounterSliceNew.actions
+export const {increment_By_Two, decrement_By_Two} = CounterSliceNew.actions
 
 export default CounterSliceNew;

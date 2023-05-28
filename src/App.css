@@ -7,6 +7,7 @@
     height: 550px;
     border: 2px groove rgb(66, 65, 65);
     position: relative;
+    background:linear-gradient(to right, #b7b4b1, #6e6b6a);
 }
 
 .container1{
@@ -30,4 +31,19 @@
     border: 1px double rgb(198, 23, 23);
     position: absolute;
 
+}
+
+.btn1{
+  margin-top: 70%;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #cfc7c7;
+  border: 2px solid #948f8f;
+  margin-top: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size:xx-large;
+  font-family: monospace;
+  font-weight: 500;
+  background:linear-gradient(to bottom, #f39d3b, #e73212);
 }
